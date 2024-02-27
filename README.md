@@ -1,3 +1,6 @@
+# Name: Mathesh S
+# Reg no: 212223230123
+
 # Exno:1
 Data Cleaning Process
 
@@ -21,6 +24,123 @@ STEP 5: Remove outliers using IQR
 STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
-            <<include your coding and its corressponding output screen shots here>>
+
+## DATA CLEANING PROCESS:
+
+![alt text](image-11.png)
+
+<br>
+<br>
+
+![alt text](image-12.png)
+
+<br>
+<br>
+
+![alt text](image-13.png)
+
+<br>
+<br>
+
+![alt text](image-14.png)
+
+<br>
+<br>
+
+![alt text](image-15.png)
+
+<br>
+<br>
+
+![alt text](image-16.png)
+
+<br>
+<br>
+
+![alt text](image-17.png)
+
+<br>
+<br>
+
+![alt text](image-18.png)
+
+<br>
+<br>
+
+![alt text](image-19.png)
+
+
+### OUTLIERS  DETECTION AND REMOVAL:
+
+```
+import pandas as pd
+import seaborn as sns
+age = [1,3,28,27,92,30,39,40,50,26,24,29,94]
+af = pd.DataFrame(age)
+af
+
+```
+
+<br>
+<br>
+
+![alt text](image.png)
+
+<br>
+<br>
+
+![alt text](image-1.png)
+
+<br>
+<br>
+
+![alt text](image-2.png)
+
+<br>
+<br>
+
+## IQR:
+
+![alt text](image-3.png)
+
+<br>
+<br>
+
+![alt text](image-4.png)
+
+<br>
+<br>
+
+![alt text](image-5.png)
+
+<br>
+<br>
+
+![alt text](image-6.png)
+
+<br>
+<br>
+
+![alt text](image-7.png)
+
+<br>
+<br>
+
+![alt text](image-8.png)
+
+<br>
+<br>
+
+![alt text](image-9.png)
+
+
+
+![alt text](image-10.png)
+
+
+
+
+
 # Result
-          <<include your Result here>>
+Thus the given data cleaned , outliers detected and removed successfully.
+
